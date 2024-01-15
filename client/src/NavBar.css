@@ -1,0 +1,38 @@
+.navigation-bar {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex; /* Add flex display to align both lists horizontally */
+  justify-content: space-between; /* Space-between to separate the lists */
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list:first-child {
+  justify-content: flex-end;
+}
+
+.nav-clickable-item {
+  margin-right: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.nav-item {
+  margin-right: 30px;
+  padding: 10px 20px;
+}
+
+.nav-clickable-item:hover {
+  background-color: #202020;
+  border-color: white;
+}
