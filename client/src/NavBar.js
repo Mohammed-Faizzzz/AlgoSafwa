@@ -12,9 +12,7 @@ const NavigationBar = () => {
         <li className="nav-clickable-item">Store</li>
       </ul>
       <ul className="nav-list">
-        <li className="nav-clickable-item">Register</li>
-        <li className="nav-item">OR</li>
-        <li className="nav-clickable-item">Login</li>
+        <li className="nav-clickable-item">Account</li>
         <li className="nav-clickable-item">Premium</li>
       </ul>
     </nav>

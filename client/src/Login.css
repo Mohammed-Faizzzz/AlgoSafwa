@@ -1,0 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e5f6df;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 15px; /* Adjust padding as necessary */
+  margin: 10px 0;
+  border-radius: 20px; /* Adjust to match the design */
+  border: none; /* No border */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+  background-color: #white;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #darkblue;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sign-up a {
+  color: #blue;
+  text-decoration: none;
+}
