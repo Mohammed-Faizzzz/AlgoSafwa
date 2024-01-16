@@ -1,5 +1,11 @@
 import React from 'react';
 import './Login.css';
+import googleSignInImage from './images/google-mark.png';
+import githubSignInImage from './images/github-mark/github-mark.png';
+
+const handleGoogleSignIn = () => {
+    // Your sign-in logic here
+  };
 
 const LoginPage = () => {
   const handleSubmit = (event) => {
@@ -21,8 +27,13 @@ const LoginPage = () => {
           </div>
           <button type="submit" className="login-button">Login</button>
         </form>
-        <button className="google-button">Sign in with Google</button>
-        <button className="github-button">Sign in with Github</button>
+        <button className="google-button">
+            <img src={googleSignInImage} alt="Google Sign In" className="oauth-icon" />
+            Sign in with Google</button>
+        <button className="github-button">
+            <img src={githubSignInImage} alt="GitHub Sign In" className="oauth-icon" />
+            Sign in with Github
+        </button>
         <div className="signup-link">
           <span>don't have an account yet? </span>
           <a href="/signup" style = {{textDecoration: 'none'}} >Sign Up</a>
