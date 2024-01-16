@@ -25,7 +25,7 @@ const LoginPage = () => {
         <button className="github-button">Sign in with Github</button>
         <div className="signup-link">
           <span>don't have an account yet? </span>
-          <a href="/signup">Sign Up</a>
+          <a href="/signup" style = {{textDecoration: 'none'}} >Sign Up</a>
         </div>
       </div>
     </div>
